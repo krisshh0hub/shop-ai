@@ -9,7 +9,7 @@ import {
   CSVImportResult
 } from '../types';
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL||'/api';
 
 // Generates or retrieves unique session id for guest cart tracking
 export const getSessionId = (): string => {
